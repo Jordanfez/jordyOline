@@ -1,0 +1,25 @@
+.swiper {
+  width: 100%;
+  padding-top: 120px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 300px;
+  height: 300px;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+}
+
+.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal {
+    bottom: var(--swiper-pagination-bottom, -5px);
+    background-color: aliceblue;
+    top: var(--swiper-pagination-top, auto);
+    left: 40%;
+    width: 20%;
+}
